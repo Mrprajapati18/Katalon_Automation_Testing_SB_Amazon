@@ -17,17 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl('https://www.amazon.in/')
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.in/')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+WebUI.selectOptionByValue(findTestObject('Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/select_All Departments        Arts  Crafts _135c92'), 
     category, false)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+WebUI.selectOptionByValue(findTestObject('Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/input_field-keywords'), 
     item, false)
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/inputnav-search-submit-button'))
 
 WebUI.closeBrowser()
 

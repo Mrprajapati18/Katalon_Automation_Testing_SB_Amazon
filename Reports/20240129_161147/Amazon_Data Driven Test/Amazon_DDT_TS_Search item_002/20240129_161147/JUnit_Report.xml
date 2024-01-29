@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_DDT_TS_Search item_002" time="10.537" tests="3" failures="3" errors="0">
+   <testsuite name="Amazon_DDT_TS_Search item_002" tests="3" failures="3" errors="0" time="10.537" skipped="0" timestamp="29-01-2024T16:11:53" hostname="Lenovo - Durgesh" id="Test Suites/Amazon_Data Driven Test/Amazon_DDT_TS_Search item_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524918543.png, C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524921630.png, C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524924264.png"/>
+         <property name="hostName" value="Lenovo - Durgesh"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="a8e93e4af646050ef5294840d3615b73"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" time="4.68" classname="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)&#xa;	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: &quot;Books&quot;)&#xa;	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-01-2024T16:11:54 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-01-2024T16:11:54 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:11:54 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:11:54 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:11:54 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:11:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T16:11:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T16:11:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T16:11:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T16:11:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:11:58 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:11:58 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, STOP_ON_FAILURE): Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+
+29-01-2024T16:11:59 - [MESSAGE][FAILED] - Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524918543.png]]
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null]]></system-out>
+         <system-err><![CDATA[29-01-2024T16:11:54 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" time="2.999" classname="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)&#xa;	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Range 'Electronics' is invalid (For input string: &quot;Electronics&quot;)&#xa;	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-01-2024T16:11:59 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Electronics' is invalid (For input string: "Electronics")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:11:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T16:11:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T16:11:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T16:11:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T16:12:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T16:12:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:12:01 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:12:01 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, STOP_ON_FAILURE): Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Electronics' is invalid (For input string: "Electronics")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+
+29-01-2024T16:12:02 - [MESSAGE][FAILED] - Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Electronics' is invalid (For input string: "Electronics")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524921630.png]]
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null]]></system-out>
+         <system-err><![CDATA[29-01-2024T16:11:59 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Electronics' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Electronics' is invalid (For input string: "Electronics")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" time="2.214" classname="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)&#xa;	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Range 'Baby' is invalid (For input string: &quot;Baby&quot;)&#xa;	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[29-01-2024T16:12:02 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Baby' is invalid (For input string: "Baby")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+29-01-2024T16:12:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-01-2024T16:12:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-01-2024T16:12:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-01-2024T16:12:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-01-2024T16:12:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-01-2024T16:12:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:12:04 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+29-01-2024T16:12:04 - [TEST_STEP][FAILED] - selectOptionByIndex(findTestObject("Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), category, STOP_ON_FAILURE): Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Baby' is invalid (For input string: "Baby")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+
+29-01-2024T16:12:04 - [MESSAGE][FAILED] - Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Baby' is invalid (For input string: "Baby")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Script1706517980115.run(Script1706517980115.groovy:24)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240129_161147\\Amazon_Data Driven Test\\Amazon_DDT_TS_Search item_002\\20240129_161147\\1706524924264.png]]
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+29-01-2024T16:12:04 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null]]></system-out>
+         <system-err><![CDATA[29-01-2024T16:12:02 - [TEST_CASE][FAILED] - Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Baby' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Baby' is invalid (For input string: "Baby")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-01-2024T16:11:53 - [TEST_SUITE][FAILED] - Amazon_DDT_TS_Search item_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[29-01-2024T16:11:53 - [TEST_SUITE][FAILED] - Amazon_DDT_TS_Search item_002: Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index 'Books' of object 'Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1153)
+	at Amazon_DDT_TC_SearchItem_002.run(Amazon_DDT_TC_SearchItem_002:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706524907709.run(TempTestSuite1706524907709.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Range 'Books' is invalid (For input string: "Books")
+	at com.kms.katalon.core.helper.KeywordHelper.indexRangeToArray(KeywordHelper.java:101)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

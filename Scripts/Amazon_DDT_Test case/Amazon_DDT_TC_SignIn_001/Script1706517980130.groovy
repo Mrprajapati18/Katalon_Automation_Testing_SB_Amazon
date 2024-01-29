@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.amazon.in/')
+
+WebUI.click(findTestObject('Object Repository/Amazon_DDT_Test_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in'))
+
+WebUI.setText(findTestObject('Object Repository/Amazon_DDT_Test_OR/Page_Amazon Sign In/input_email'), email)
+
+WebUI.click(findTestObject('Object Repository/Amazon_DDT_Test_OR/Page_Amazon Sign In/inputcontinue'))
+
+WebUI.setText(findTestObject('Object Repository/Amazon_DDT_Test_OR/Page_Amazon Sign In/input_password'), password)
+
+WebUI.closeBrowser()
+

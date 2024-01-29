@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_DDT_TS_Search item_002,,,,29-01-2024 16:13:30,29-01-2024 16:13:32,1.888s,FAILED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,,,,29-01-2024 16:13:30,29-01-2024 16:13:31,0.964s,FAILED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:30,29-01-2024 16:13:30,0.009s,PASSED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:30,29-01-2024 16:13:30,0.005s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",,,,29-01-2024 16:13:30,29-01-2024 16:13:31,0.620s,FAILED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.010s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.009s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.007s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.004s,PASSED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.139s,FAILED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.004s,PASSED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.077s,FAILED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,,,,29-01-2024 16:13:31,29-01-2024 16:13:32,0.140s,FAILED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+Start listener action : onTestCaseStrat,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.077s,FAILED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:31,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,29-01-2024 16:13:31,29-01-2024 16:13:32,0.003s,PASSED

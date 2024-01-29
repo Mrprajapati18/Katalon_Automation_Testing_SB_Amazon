@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_DDT_TS_Search item_002,Chrome 121.0.0.0,,,29-01-2024 16:11:53,29-01-2024 16:12:04,10.537s,FAILED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,Chrome 121.0.0.0,,,29-01-2024 16:11:54,29-01-2024 16:11:59,4.680s,FAILED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:11:54,29-01-2024 16:11:54,0.006s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:11:54,29-01-2024 16:11:54,0.007s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 16:11:54,29-01-2024 16:11:57,2.498s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 16:11:57,29-01-2024 16:11:58,1.045s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 16:11:58,29-01-2024 16:11:59,0.791s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.009s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.007s,PASSED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:12:02,2.999s,FAILED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.003s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:11:59,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 16:11:59,29-01-2024 16:12:00,1.167s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 16:12:00,29-01-2024 16:12:01,1.174s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 16:12:01,29-01-2024 16:12:02,0.611s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.002s,PASSED
+,,,,,,,
+Test Cases/Amazon_DDT_Test case/Amazon_DDT_TC_SearchItem_002,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:04,2.214s,FAILED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.004s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:02,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 16:12:02,29-01-2024 16:12:03,1.098s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 16:12:03,29-01-2024 16:12:04,0.852s,PASSED
+"selectOptionByIndex(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), category, STOP_ON_FAILURE)",Chrome 121.0.0.0,,,29-01-2024 16:12:04,29-01-2024 16:12:04,0.220s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:04,29-01-2024 16:12:04,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:04,29-01-2024 16:12:04,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:04,29-01-2024 16:12:04,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 16:12:04,29-01-2024 16:12:04,0.001s,PASSED
