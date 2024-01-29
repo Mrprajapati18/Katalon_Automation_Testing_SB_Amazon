@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "B4D298E9AC923D7F9449F49A6A66243A",
+  "keywordClasses": [
+    {
+      "name": "com.searchitem.two.CustomFunctionstwo",
+      "keywordMethods": [
+        {
+          "name": "printlnHello",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

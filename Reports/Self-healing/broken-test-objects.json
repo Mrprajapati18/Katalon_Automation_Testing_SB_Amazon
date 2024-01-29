@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Amazon.com. Spend less. Smile more/a_About Amazon",
+      "brokenLocator": "//div[@id\u003d\u0027navFooter\u0027]/div/div/div/ul/li[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027About Amazon\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/New Folder/Page_Amazon.com. Spend less. Smile more/a_Amazon Devices",
+      "brokenLocator": "//div[@id\u003d\u0027navFooter\u0027]/div/div/div/ul/li[5]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[5]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/New Folder/Page_Amazon.com. Spend less. Smile more/a_Amazon Devices_position.png"
+    }
+  ]
 }

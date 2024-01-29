@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "913F47C5F1DFF7028DA24A58DB26B316",
+  "keywordClasses": [
+    {
+      "name": "com.headerbutton.three.CustomFuncctionthree",
+      "keywordMethods": [
+        {
+          "name": "printlnHello",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Basic_TS_Searchitem_002,Firefox 122.0,,,29-01-2024 01:02:53,29-01-2024 01:03:11,18.025s,FAILED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SearchItem_002,Firefox 122.0,,smoke,29-01-2024 01:03:02,29-01-2024 01:03:11,8.270s,FAILED
+Start listener action : onTestCaseStrat,Firefox 122.0,,,29-01-2024 01:03:02,29-01-2024 01:03:02,0.016s,PASSED
+Start listener action : onTestCaseStrat,Firefox 122.0,,,29-01-2024 01:03:02,29-01-2024 01:03:02,0.000s,PASSED
+"openBrowser("""")",Firefox 122.0,,,29-01-2024 01:03:02,29-01-2024 01:03:07,4.203s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,29-01-2024 01:03:07,29-01-2024 01:03:09,2.271s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Firefox 122.0,,,29-01-2024 01:03:09,29-01-2024 01:03:11,1.748s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,29-01-2024 01:03:11,29-01-2024 01:03:11,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,29-01-2024 01:03:11,29-01-2024 01:03:11,0.016s,PASSED

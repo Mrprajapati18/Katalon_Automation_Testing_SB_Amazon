@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Basic_TS_Searchitem_002,Chrome 121.0.0.0,,,29-01-2024 02:22:08,29-01-2024 02:22:38,29.736s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SearchItem_002,Chrome 121.0.0.0,,smoke,29-01-2024 02:22:09,29-01-2024 02:22:38,29.394s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:22:09,29-01-2024 02:22:09,0.007s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:22:09,29-01-2024 02:22:09,0.013s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 02:22:09,29-01-2024 02:22:11,2.275s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,29-01-2024 02:22:11,29-01-2024 02:22:13,2.140s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 02:22:13,29-01-2024 02:22:16,2.364s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,29-01-2024 02:22:16,29-01-2024 02:22:17,1.627s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 02:22:17,29-01-2024 02:22:21,3.394s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 02:22:21,29-01-2024 02:22:23,2.341s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/input_field-keywords""), ""Laptop"")",Chrome 121.0.0.0,,,29-01-2024 02:22:23,29-01-2024 02:22:24,0.951s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 02:22:24,29-01-2024 02:22:30,6.026s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/select_Electronics        All Departments  _28d51a""), ""search-alias=kitchen-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 02:22:30,29-01-2024 02:22:32,2.148s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/input_field-keywords""), ""washing machine "")",Chrome 121.0.0.0,,,29-01-2024 02:22:32,29-01-2024 02:22:33,1.039s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 02:22:33,29-01-2024 02:22:38,4.595s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 02:22:38,29-01-2024 02:22:38,0.253s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:22:38,29-01-2024 02:22:38,0.006s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:22:38,29-01-2024 02:22:38,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:22:38,29-01-2024 02:22:38,0.004s,PASSED

@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Basic_TS_HeaderButton_003,Chrome 121.0.0.0,,,29-01-2024 01:14:13,29-01-2024 01:15:38,1m - 25.489s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SignIn_001,Chrome 121.0.0.0,,smoke,29-01-2024 01:14:13,29-01-2024 01:14:24,11.220s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:13,29-01-2024 01:14:13,0.010s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:13,29-01-2024 01:14:13,0.009s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 01:14:13,29-01-2024 01:14:16,2.307s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,29-01-2024 01:14:16,29-01-2024 01:14:17,1.678s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Chrome 121.0.0.0,,,29-01-2024 01:14:17,29-01-2024 01:14:19,1.881s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_email""), ""durgeshkumar778080@gmail.com"")",Chrome 121.0.0.0,,,29-01-2024 01:14:19,29-01-2024 01:14:21,1.595s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,29-01-2024 01:14:21,29-01-2024 01:14:23,2.064s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_password""), ""wyzziq9mVWQjeLthOCNz3A=="")",Chrome 121.0.0.0,,,29-01-2024 01:14:23,29-01-2024 01:14:24,0.828s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.479s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.194s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.005s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SearchItem_002,Chrome 121.0.0.0,,smoke,29-01-2024 01:14:24,29-01-2024 01:14:51,26.882s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.003s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:24,29-01-2024 01:14:24,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 01:14:25,29-01-2024 01:14:25,0.744s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,29-01-2024 01:14:25,29-01-2024 01:14:27,2.214s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 01:14:27,29-01-2024 01:14:30,2.398s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,29-01-2024 01:14:30,29-01-2024 01:14:31,1.438s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 01:14:31,29-01-2024 01:14:35,3.277s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 01:14:35,29-01-2024 01:14:37,2.285s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/input_field-keywords""), ""Laptop"")",Chrome 121.0.0.0,,,29-01-2024 01:14:37,29-01-2024 01:14:38,1.124s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 01:14:38,29-01-2024 01:14:44,6.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/select_Electronics        All Departments  _28d51a""), ""search-alias=kitchen-intl-ship"", true)",Chrome 121.0.0.0,,,29-01-2024 01:14:44,29-01-2024 01:14:46,2.305s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/input_field-keywords""), ""washing machine "")",Chrome 121.0.0.0,,,29-01-2024 01:14:46,29-01-2024 01:14:47,1.126s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,29-01-2024 01:14:47,29-01-2024 01:14:51,3.637s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:51,0.220s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:51,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003,Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:15:38,47.095s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:51,0.003s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:51,0.003s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 01:14:51,29-01-2024 01:14:52,0.682s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 01:14:52,29-01-2024 01:14:53,0.855s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,29-01-2024 01:14:53,29-01-2024 01:14:53,0.146s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,29-01-2024 01:14:53,29-01-2024 01:15:12,18.950s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers""))",Chrome 121.0.0.0,,,29-01-2024 01:15:12,29-01-2024 01:15:15,3.317s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Todays Deals""))",Chrome 121.0.0.0,,,29-01-2024 01:15:15,29-01-2024 01:15:17,2.031s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Mobiles""))",Chrome 121.0.0.0,,,29-01-2024 01:15:17,29-01-2024 01:15:22,4.748s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/a_Electronics""))",Chrome 121.0.0.0,,,29-01-2024 01:15:22,29-01-2024 01:15:29,6.426s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_Prime""))",Chrome 121.0.0.0,,,29-01-2024 01:15:29,29-01-2024 01:15:31,2.045s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Amazon Prime - 30 Day FREE Trial/a_New Releases""))",Chrome 121.0.0.0,,,29-01-2024 01:15:31,29-01-2024 01:15:33,1.889s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas""))",Chrome 121.0.0.0,,,29-01-2024 01:15:33,29-01-2024 01:15:35,1.990s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Home  Kitchen""))",Chrome 121.0.0.0,,,29-01-2024 01:15:35,29-01-2024 01:15:38,3.595s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 01:15:38,29-01-2024 01:15:38,0.303s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:15:38,29-01-2024 01:15:38,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 01:15:38,29-01-2024 01:15:38,0.002s,PASSED

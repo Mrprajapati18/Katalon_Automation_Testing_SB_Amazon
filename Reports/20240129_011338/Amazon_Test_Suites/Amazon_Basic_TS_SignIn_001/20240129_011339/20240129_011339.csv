@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Basic_TS_SignIn_001,Firefox 122.0,,,29-01-2024 01:13:48,29-01-2024 01:14:07,19.886s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SignIn_001,Firefox 122.0,,smoke,29-01-2024 01:13:48,29-01-2024 01:14:07,19.524s,PASSED
+Start listener action : onTestCaseStrat,Firefox 122.0,,,29-01-2024 01:13:48,29-01-2024 01:13:48,0.007s,PASSED
+Start listener action : onTestCaseStrat,Firefox 122.0,,,29-01-2024 01:13:48,29-01-2024 01:13:48,0.007s,PASSED
+"openBrowser("""")",Firefox 122.0,,,29-01-2024 01:13:48,29-01-2024 01:13:53,4.586s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,29-01-2024 01:13:53,29-01-2024 01:13:56,2.847s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Firefox 122.0,,,29-01-2024 01:13:56,29-01-2024 01:13:58,2.256s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_email""), ""durgeshkumar778080@gmail.com"")",Firefox 122.0,,,29-01-2024 01:13:58,29-01-2024 01:13:59,1.717s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputcontinue""))",Firefox 122.0,,,29-01-2024 01:13:59,29-01-2024 01:14:02,2.042s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_password""), ""wyzziq9mVWQjeLthOCNz3A=="")",Firefox 122.0,,,29-01-2024 01:14:02,29-01-2024 01:14:03,1.456s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Firefox 122.0,,,29-01-2024 01:14:03,29-01-2024 01:14:06,3.256s,PASSED
+closeBrowser(),Firefox 122.0,,,29-01-2024 01:14:06,29-01-2024 01:14:07,1.156s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,29-01-2024 01:14:07,29-01-2024 01:14:07,0.003s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,29-01-2024 01:14:07,29-01-2024 01:14:07,0.004s,PASSED

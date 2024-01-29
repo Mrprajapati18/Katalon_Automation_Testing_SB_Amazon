@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Test suite_Listener_001" time="0.512" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_Test suite_Listener_001" tests="1" failures="0" errors="0" time="0.512" skipped="0" timestamp="28-01-2024T23:39:59" hostname="Lenovo - Durgesh" id="Test Suites/Test Suite_Listner/Amazon_Test suite_Listener_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240128_233954\\Test Suite_Listner\\Amazon_Test suite_Listener_001\\20240128_233954"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240128_233954\\Test Suite_Listner\\Amazon_Test suite_Listener_001\\20240128_233954\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - Durgesh"/>
+         <property name="hostAddress" value="192.168.1.10"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/Amazon Test Listener/Test_001" time="0.175" classname="Test Cases/Amazon Test Listener/Test_001" status="PASSED">
+         <system-out><![CDATA[28-01-2024T23:39:59 - [TEST_CASE][PASSED] - Test Cases/Amazon Test Listener/Test_001: Test Cases/Amazon Test Listener/Test_001
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - Start listener action : onTestCaseStrat: null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - println("
+ I am inside onTestCaseStrat Function"): null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - println("
+....I am inside  Test_001"): null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null
+
+28-01-2024T23:39:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+28-01-2024T23:40:00 - [TEST_STEP][PASSED] - println("
+ I am inside sampleAfterTestCase Function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-01-2024T23:39:59 - [TEST_SUITE][PASSED] - Amazon_Test suite_Listener_001: Test Cases/Amazon Test Listener/Test_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

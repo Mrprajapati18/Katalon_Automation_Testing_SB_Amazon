@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Dynamic_TS_FooterLinks_004,Chrome 121.0.0.0,,,29-01-2024 02:36:47,29-01-2024 02:37:48,1m - 0.365s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004,Chrome 121.0.0.0,,smoke,29-01-2024 02:36:48,29-01-2024 02:37:10,22.296s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:36:48,29-01-2024 02:36:48,0.009s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:36:48,29-01-2024 02:36:48,0.007s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 02:36:48,29-01-2024 02:36:50,2.072s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 02:36:50,29-01-2024 02:36:53,2.771s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia""))",Chrome 121.0.0.0,,,29-01-2024 02:36:53,29-01-2024 02:36:56,2.899s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil""))",Chrome 121.0.0.0,,,29-01-2024 02:36:56,29-01-2024 02:37:01,5.332s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia""))",Chrome 121.0.0.0,,,29-01-2024 02:37:01,29-01-2024 02:37:05,3.794s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan""))",Chrome 121.0.0.0,,,29-01-2024 02:37:05,29-01-2024 02:37:10,4.969s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.213s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.006s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003,Chrome 121.0.0.0,,smoke,29-01-2024 02:37:10,29-01-2024 02:37:48,37.726s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.003s,PASSED
+Start listener action : onTestCaseStrat,Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:10,0.003s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,29-01-2024 02:37:10,29-01-2024 02:37:11,0.875s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,29-01-2024 02:37:11,29-01-2024 02:37:12,1.115s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,29-01-2024 02:37:12,29-01-2024 02:37:12,0.170s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,29-01-2024 02:37:12,29-01-2024 02:37:15,2.570s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers""))",Chrome 121.0.0.0,,,29-01-2024 02:37:15,29-01-2024 02:37:17,2.238s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Todays Deals""))",Chrome 121.0.0.0,,,29-01-2024 02:37:17,29-01-2024 02:37:19,2.177s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Mobiles""))",Chrome 121.0.0.0,,,29-01-2024 02:37:19,29-01-2024 02:37:29,10.386s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/a_Electronics""))",Chrome 121.0.0.0,,,29-01-2024 02:37:29,29-01-2024 02:37:37,7.524s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_Prime""))",Chrome 121.0.0.0,,,29-01-2024 02:37:37,29-01-2024 02:37:39,2.095s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Amazon Prime - 30 Day FREE Trial/a_New Releases""))",Chrome 121.0.0.0,,,29-01-2024 02:37:39,29-01-2024 02:37:41,2.175s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas""))",Chrome 121.0.0.0,,,29-01-2024 02:37:41,29-01-2024 02:37:43,2.116s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Home  Kitchen""))",Chrome 121.0.0.0,,,29-01-2024 02:37:43,29-01-2024 02:37:47,3.822s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,29-01-2024 02:37:47,29-01-2024 02:37:48,0.338s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:48,29-01-2024 02:37:48,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:48,29-01-2024 02:37:48,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,29-01-2024 02:37:48,29-01-2024 02:37:48,0.000s,PASSED

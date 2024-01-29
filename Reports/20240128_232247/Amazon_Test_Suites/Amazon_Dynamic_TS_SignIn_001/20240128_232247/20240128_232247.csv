@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Dynamic_TS_SignIn_001,Edge Chromium 121,,,28-01-2024 23:22:52,28-01-2024 23:23:36,44.318s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SearchItem_002,Edge Chromium 121,,smoke,28-01-2024 23:22:52,28-01-2024 23:23:22,30.105s,PASSED
+Start listener action : onTestCaseStrat,Edge Chromium 121,,,28-01-2024 23:22:52,28-01-2024 23:22:52,0.008s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 23:22:52,28-01-2024 23:22:56,3.703s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 121,,,28-01-2024 23:22:56,28-01-2024 23:22:59,2.574s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Edge Chromium 121,,,28-01-2024 23:22:59,28-01-2024 23:23:01,2.544s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci code"")",Edge Chromium 121,,,28-01-2024 23:23:01,28-01-2024 23:23:03,1.356s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Edge Chromium 121,,,28-01-2024 23:23:03,28-01-2024 23:23:06,3.411s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Edge Chromium 121,,,28-01-2024 23:23:06,28-01-2024 23:23:08,2.303s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/input_field-keywords""), ""Laptop"")",Edge Chromium 121,,,28-01-2024 23:23:08,28-01-2024 23:23:09,0.920s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Da vinci code/inputnav-search-submit-button""))",Edge Chromium 121,,,28-01-2024 23:23:09,28-01-2024 23:23:14,5.257s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/select_Electronics        All Departments  _28d51a""), ""search-alias=kitchen-intl-ship"", true)",Edge Chromium 121,,,28-01-2024 23:23:14,28-01-2024 23:23:17,2.880s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/input_field-keywords""), ""washing machine "")",Edge Chromium 121,,,28-01-2024 23:23:17,28-01-2024 23:23:18,1.056s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SearchItem_OR/Page_Amazon.com  Laptop/inputnav-search-submit-button""))",Edge Chromium 121,,,28-01-2024 23:23:18,28-01-2024 23:23:22,3.479s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 23:23:22,28-01-2024 23:23:22,0.399s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 23:23:22,28-01-2024 23:23:22,0.005s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SignIn_001,Edge Chromium 121,,smoke,28-01-2024 23:23:22,28-01-2024 23:23:36,13.900s,PASSED
+Start listener action : onTestCaseStrat,Edge Chromium 121,,,28-01-2024 23:23:22,28-01-2024 23:23:22,0.002s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,28-01-2024 23:23:22,28-01-2024 23:23:25,2.396s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Edge Chromium 121,,,28-01-2024 23:23:25,28-01-2024 23:23:29,4.449s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in""))",Edge Chromium 121,,,28-01-2024 23:23:29,28-01-2024 23:23:31,1.746s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_email""), ""durgeshkumar778080@gmail.com"")",Edge Chromium 121,,,28-01-2024 23:23:31,28-01-2024 23:23:32,1.374s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputcontinue""))",Edge Chromium 121,,,28-01-2024 23:23:32,28-01-2024 23:23:35,2.181s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_password""), ""wyzziq9mVWQjeLthOCNz3A=="")",Edge Chromium 121,,,28-01-2024 23:23:35,28-01-2024 23:23:36,0.958s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Edge Chromium 121,,,28-01-2024 23:23:36,28-01-2024 23:23:36,0.385s,PASSED
+closeBrowser(),Edge Chromium 121,,,28-01-2024 23:23:36,28-01-2024 23:23:36,0.329s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,28-01-2024 23:23:36,28-01-2024 23:23:36,0.001s,PASSED

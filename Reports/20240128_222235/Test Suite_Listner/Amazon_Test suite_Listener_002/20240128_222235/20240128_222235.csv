@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test suite_Listener_002,,,,28-01-2024 22:22:40,28-01-2024 22:22:40,0.511s,PASSED
+,,,,,,,
+Test Cases/Amazon Test Listener/Test_002,,,,28-01-2024 22:22:40,28-01-2024 22:22:40,0.173s,PASSED
+Start listener action : onTestCaseStrat,,,,28-01-2024 22:22:40,28-01-2024 22:22:40,0.017s,PASSED
+"println("" 
+ I am inside Test_002"")",,,,28-01-2024 22:22:40,28-01-2024 22:22:40,0.005s,PASSED
+Start listener action : sampleAfterTestCase,,,,28-01-2024 22:22:40,28-01-2024 22:22:40,0.005s,PASSED

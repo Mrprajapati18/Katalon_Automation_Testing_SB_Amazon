@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F6F35DAB06DACCA3EB4F737420907008",
+  "keywordClasses": [
+    {
+      "name": "com.footerlinks.four.CustomFunctionsfour",
+      "keywordMethods": [
+        {
+          "name": "printlnHello",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
