@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "60BD78FEB7F8715562D2D7DABBF17B92",
+  "keywordFileContentHash": "900FC82CA0E3E431D9B705790DFB9140",
   "keywordClasses": [
     {
       "name": "Amazon_Footerlinks_TestListener_004",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

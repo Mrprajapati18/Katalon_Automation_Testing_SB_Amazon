@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Searchitem_SetUp_TearDown_Test Suite_002,,,,30-01-2024 12:39:35,30-01-2024 12:39:35,0.602s,PASSED
+,,,,,,,
+Test Cases/Amazon_SetUp_Teardown/Test_002,,,,30-01-2024 12:39:35,30-01-2024 12:39:35,0.115s,PASSED
+"println(""
+ I am inside Test_002"")",,,,30-01-2024 12:39:35,30-01-2024 12:39:35,0.004s,PASSED

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_SignIn_Test Setup TearDown_TS_001,,,,30-01-2024 12:29:29,30-01-2024 12:29:30,0.661s,PASSED
+,,,,,,,
+Test Cases/Amazon_SetUp_Teardown/Test_001,,,,30-01-2024 12:29:29,30-01-2024 12:29:30,0.150s,PASSED
+Start setup action : setupTestCase,,,,30-01-2024 12:29:30,30-01-2024 12:29:30,0.019s,PASSED
+"println(""
+ I am inside Test_001"")",,,,30-01-2024 12:29:30,30-01-2024 12:29:30,0.003s,PASSED
+Start tear down : tearDownTestCase,,,,30-01-2024 12:29:30,30-01-2024 12:29:30,0.011s,PASSED

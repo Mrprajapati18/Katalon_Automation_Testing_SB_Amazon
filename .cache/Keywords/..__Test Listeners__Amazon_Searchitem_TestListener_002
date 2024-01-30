@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "9D8EA825D74E56000B82D087B2FB0E30",
+  "keywordFileContentHash": "039B69BBFC02A5D6EE165028CACF2133",
   "keywordClasses": [
     {
       "name": "Amazon_Searchitem_TestListener_002",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
