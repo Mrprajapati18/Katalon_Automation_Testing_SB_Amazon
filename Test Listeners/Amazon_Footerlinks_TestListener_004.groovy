@@ -27,35 +27,35 @@ class Amazon_Footerlinks_TestListener_004 {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	 def onTestCaseStart() {
-		  println("\n I am inside onTestCaseStart Function")
-	  }
+//	 def onTestCaseStart() {
+//		  println("\n I am inside onTestCaseStart Function")
+//	  }
 
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		 println("\n I am inside sampleAfterTestCase Function")
-	}
+//	@AfterTestCase
+//	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+//		 println("\n I am inside sampleAfterTestCase Function")
+//	}
 
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println("\n I am inside sampleBeforeTestSuite Function")
-		
-	}
+//	@BeforeTestSuite
+//	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+//		println("\n I am inside sampleBeforeTestSuite Function")
+//		
+//	}
 
 	/**
 	 * Executes after every test suite ends.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println("\n I am inside sampleAfterTestSuite Function")
-	}
+//	@AfterTestSuite
+//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+//		println("\n I am inside sampleAfterTestSuite Function")
+//	}
 }

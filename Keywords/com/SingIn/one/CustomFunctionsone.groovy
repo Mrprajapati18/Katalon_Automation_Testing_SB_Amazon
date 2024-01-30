@@ -1,4 +1,4 @@
-package com.footerlinks.four
+package com.SingIn.one
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,8 +20,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class CustomFunctionsfour {
-
+public class CustomFunctionsone {
+	
 	@Keyword
 	def printlnHello() {
 		println("\n......Hello World!...")
