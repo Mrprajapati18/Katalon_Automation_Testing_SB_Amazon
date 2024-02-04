@@ -19,17 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl('https://www.amazon.in/')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon.com. Spend less. Smile more/span_Sign in'))
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'search-alias=stripbooks', true)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_email'), email)
+WebUI.setText(findTestObject('null'), 
+    'Da vinci code')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputcontinue'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/input_password'), password)
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'search-alias=electronics', true)
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_SignIn_OR/Page_Amazon Sign-In/inputsignInSubmit'))
+WebUI.setText(findTestObject('null'), 'laoptop')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'search-alias=furniture', true)
+
+WebUI.setText(findTestObject('null'), 'chair')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'search-alias=computers', true)
+
+WebUI.setText(findTestObject('null'), 'charger cable')
+
+WebUI.click(findTestObject('null'))
+
+WebUI.selectOptionByValue(findTestObject('null'), 
+    'search-alias=apparel', true)
+
+WebUI.setText(findTestObject('null'), 'T shirt for men')
+
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

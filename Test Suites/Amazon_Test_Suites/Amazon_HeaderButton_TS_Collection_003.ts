@@ -12,20 +12,20 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_SignIn_001</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_HeaderButton_003</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_HeaderButton_003</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_FooterLinks_004</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

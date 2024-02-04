@@ -2489,9 +2489,7 @@ Driver info: driver.version: unknown</property>
   <property name="startLine">22</property>
   <property name="stepIndex">2</property>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2024-01-29T10:28:06.897729200Z</date>
   <millis>1706524086897</millis>

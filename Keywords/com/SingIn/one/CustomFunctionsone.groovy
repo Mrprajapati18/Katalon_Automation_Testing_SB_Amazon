@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CustomFunctionsone {
-	
+
 	@Keyword
 	def printlnHello() {
 		println("\n......Hello World!...")

@@ -27,18 +27,16 @@ WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_
 
 WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Todays Deals'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Mobiles'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Mobile Phones Buy New Mobiles Online a_11ca6d/a_Electronics'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_Prime'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Amazon Prime - 30 Day FREE Trial/a_New Releases'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/a_Gift Ideas'))
-
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Home  Kitchen'))
+WebUI.click(findTestObject('Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas'))
 
 WebUI.closeBrowser()

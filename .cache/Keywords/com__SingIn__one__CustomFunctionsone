@@ -1,15 +1,16 @@
 {
-  "keywordFileContentHash": "DDE3FEBE889F0B9398431CECB6E9AC5D",
+  "keywordFileContentHash": "BCC6846E49203CA65C6BF799A9F444E7",
   "keywordClasses": [
     {
       "name": "com.SingIn.one.CustomFunctionsone",
       "keywordMethods": [
         {
           "name": "printlnHello",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

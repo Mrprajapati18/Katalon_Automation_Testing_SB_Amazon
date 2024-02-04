@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Customer Service</name>
    <tag></tag>
-   <elementGuidId>4072a7b1-b544-4d2f-a745-573ea8681bff</elementGuidId>
+   <elementGuidId>3466f8a1-9170-46ff-a35a-2fc6d6f5dee4</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-xshop']/a[8]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='nav-xshop']/a[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>982f175e-daea-4b38-a016-4334bcce4616</webElementGuid>
+      <webElementGuid>0ec6564a-f8c3-4236-92cb-d6a69dfd8ae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/gp/help/customer/display.html?nodeId=200507590&amp;ref_=nav_cs_help</value>
-      <webElementGuid>1d0c3c4c-8303-4e96-91a0-ff35cf4d5fe4</webElementGuid>
+      <webElementGuid>95d8b3b0-d68f-4a32-8b14-532ebc4e2dc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-a  </value>
-      <webElementGuid>67ca9677-3f26-41ec-be7f-3b597d7c6a1c</webElementGuid>
+      <webElementGuid>ec7d1ff4-f44a-44f2-9af7-3443dfd8cb23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1c54b1d5-51db-4446-a717-0db4d0dcc261</webElementGuid>
+      <webElementGuid>f1ed9ffa-05ec-4b31-8471-4a6713808806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>data-csa-c-type</name>
       <type>Main</type>
       <value>link</value>
-      <webElementGuid>1416c0c8-32a2-4be5-923c-e4f26aabacc6</webElementGuid>
+      <webElementGuid>f80f2436-4985-4be3-8189-d7f0111f1c46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
-      <value>nav_cs_6</value>
-      <webElementGuid>f4c8fdc5-1dbe-4c7c-8204-b14bc4a7e37b</webElementGuid>
+      <value>nav_cs_7</value>
+      <webElementGuid>3b5ed9dc-0a46-478c-ac60-b704ac3d3260</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>data-csa-c-content-id</name>
       <type>Main</type>
       <value>nav_cs_help</value>
-      <webElementGuid>910ea114-a61c-44e7-8bcd-eadbec21455b</webElementGuid>
+      <webElementGuid>bfe83d6d-8e94-40ba-8ab5-61992aac9b59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>5l9b0a-dijgr-xwnw9u-m1hgfb</value>
-      <webElementGuid>83a22266-f7d8-4b97-9292-908b131c95d2</webElementGuid>
+      <value>7rjudo-7bmn4n-t9a4of-4b5l2z</value>
+      <webElementGuid>526b6ff9-7f3e-4e66-a5f0-4179230e9a41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Customer Service</value>
-      <webElementGuid>3f9e01d3-0a57-4116-a5fe-df246ef52a57</webElementGuid>
+      <webElementGuid>901a804f-167b-4da7-8328-cec93870a222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;]</value>
-      <webElementGuid>901b9d5f-c835-442f-be61-24a66c296e94</webElementGuid>
+      <webElementGuid>613e9a71-4694-45cd-b438-ccda1c7006e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-xshop']/a[7]</value>
-      <webElementGuid>55f48a8e-bb5e-4ae9-a1d9-b8ce1609dc4f</webElementGuid>
+      <value>//div[@id='nav-xshop']/a[8]</value>
+      <webElementGuid>5a92c516-3b14-4beb-bd3f-bb2c4bedead6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Customer Service')]</value>
-      <webElementGuid>c0f5f9e7-6d76-4a91-8d80-4d10df469dd1</webElementGuid>
+      <webElementGuid>6d1c4665-d9a9-4020-9209-ddcf3e442d45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,15 +118,15 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/gp/help/customer/display.html?nodeId=200507590&amp;ref_=nav_cs_help')]</value>
-      <webElementGuid>87ca9386-0f94-46b5-b388-5d4e0953b1b8</webElementGuid>
+      <webElementGuid>ecde7b2a-3a1e-4033-b823-dc0b1f66a923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a[7]</value>
-      <webElementGuid>0ac66337-0147-4a38-ab6d-27a39a2667d6</webElementGuid>
+      <value>//a[8]</value>
+      <webElementGuid>89f5004b-79da-4577-ac5e-d58edcce3b89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/gp/help/customer/display.html?nodeId=200507590&amp;ref_=nav_cs_help' and (text() = 'Customer Service' or . = 'Customer Service')]</value>
-      <webElementGuid>f4972c47-3087-45cf-ae40-bf406cf0b3a2</webElementGuid>
+      <webElementGuid>f97d32d7-9bff-4fbc-975e-d339a167d836</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -2532,4 +2532,670 @@ Driver info: driver.version: unknown</property>
   <property name="startLine">28</property>
   <property name="stepIndex">3</property>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2024-02-02T21:04:55.482907500Z</date>
+  <millis>1706907895482</millis>
+  <nanos>907500</nanos>
+  <sequence>2502</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:04:55.486910600Z</date>
+  <millis>1706907895486</millis>
+  <nanos>910600</nanos>
+  <sequence>2503</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:04:55.487916600Z</date>
+  <millis>1706907895487</millis>
+  <nanos>916600</nanos>
+  <sequence>2504</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:05:04.161514300Z</date>
+  <millis>1706907904161</millis>
+  <nanos>514300</nanos>
+  <sequence>2505</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1275</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:05:04.163739100Z</date>
+  <millis>1706907904163</millis>
+  <nanos>739100</nanos>
+  <sequence>2506</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1275</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:05:04.163739100Z</date>
+  <millis>1706907904163</millis>
+  <nanos>739100</nanos>
+  <sequence>2507</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1275</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:06:49.660362Z</date>
+  <millis>1706908009660</millis>
+  <nanos>362000</nanos>
+  <sequence>2552</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1293</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:06:49.662363300Z</date>
+  <millis>1706908009662</millis>
+  <nanos>363300</nanos>
+  <sequence>2553</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1293</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-02T21:06:49.662363300Z</date>
+  <millis>1706908009662</millis>
+  <nanos>363300</nanos>
+  <sequence>2554</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1293</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2024-02-03T04:16:59.899315700Z</date>
+  <millis>1706933819899</millis>
+  <nanos>315700</nanos>
+  <sequence>276</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:16:59.954573900Z</date>
+  <millis>1706933819954</millis>
+  <nanos>573900</nanos>
+  <sequence>277</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:16:59.954573900Z</date>
+  <millis>1706933819954</millis>
+  <nanos>573900</nanos>
+  <sequence>278</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:17:51.474409700Z</date>
+  <millis>1706933871474</millis>
+  <nanos>409700</nanos>
+  <sequence>279</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>32</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:17:51.487932700Z</date>
+  <millis>1706933871487</millis>
+  <nanos>932700</nanos>
+  <sequence>280</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>32</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:17:51.487932700Z</date>
+  <millis>1706933871487</millis>
+  <nanos>932700</nanos>
+  <sequence>281</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>32</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:34.831994200Z</date>
+  <millis>1706934094831</millis>
+  <nanos>994200</nanos>
+  <sequence>332</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:34.831994200Z</date>
+  <millis>1706934094831</millis>
+  <nanos>994200</nanos>
+  <sequence>333</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:34.831994200Z</date>
+  <millis>1706934094831</millis>
+  <nanos>994200</nanos>
+  <sequence>334</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:45.023747400Z</date>
+  <millis>1706934105023</millis>
+  <nanos>747400</nanos>
+  <sequence>335</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>121</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:45.023747400Z</date>
+  <millis>1706934105023</millis>
+  <nanos>747400</nanos>
+  <sequence>336</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>121</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:21:45.039050200Z</date>
+  <millis>1706934105039</millis>
+  <nanos>50200</nanos>
+  <sequence>337</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>121</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:23.142996Z</date>
+  <millis>1706935283142</millis>
+  <nanos>996000</nanos>
+  <sequence>388</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:23.158943400Z</date>
+  <millis>1706935283158</millis>
+  <nanos>943400</nanos>
+  <sequence>389</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:23.158943400Z</date>
+  <millis>1706935283158</millis>
+  <nanos>943400</nanos>
+  <sequence>390</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:31.276084600Z</date>
+  <millis>1706935291276</millis>
+  <nanos>84600</nanos>
+  <sequence>391</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>247</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_SearchItem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:31.276084600Z</date>
+  <millis>1706935291276</millis>
+  <nanos>84600</nanos>
+  <sequence>392</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>247</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T04:41:31.276084600Z</date>
+  <millis>1706935291276</millis>
+  <nanos>84600</nanos>
+  <sequence>393</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>247</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:42.405321300Z</date>
+  <millis>1706939202405</millis>
+  <nanos>321300</nanos>
+  <sequence>2230</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:42.419456900Z</date>
+  <millis>1706939202419</millis>
+  <nanos>456900</nanos>
+  <sequence>2231</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:42.419456900Z</date>
+  <millis>1706939202419</millis>
+  <nanos>456900</nanos>
+  <sequence>2232</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:51.192375Z</date>
+  <millis>1706939211192</millis>
+  <nanos>375000</nanos>
+  <sequence>2233</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>961</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:51.194418300Z</date>
+  <millis>1706939211194</millis>
+  <nanos>418300</nanos>
+  <sequence>2234</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>961</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T05:46:51.195394500Z</date>
+  <millis>1706939211195</millis>
+  <nanos>394500</nanos>
+  <sequence>2235</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>961</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:09:26.955235Z</date>
+  <millis>1706940566955</millis>
+  <nanos>235000</nanos>
+  <sequence>2488</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:09:26.971121400Z</date>
+  <millis>1706940566971</millis>
+  <nanos>121400</nanos>
+  <sequence>2489</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:09:26.971121400Z</date>
+  <millis>1706940566971</millis>
+  <nanos>121400</nanos>
+  <sequence>2490</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:10:14.910870600Z</date>
+  <millis>1706940614910</millis>
+  <nanos>870600</nanos>
+  <sequence>2491</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1077</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:10:14.912880300Z</date>
+  <millis>1706940614912</millis>
+  <nanos>880300</nanos>
+  <sequence>2492</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1077</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:10:14.913900600Z</date>
+  <millis>1706940614913</millis>
+  <nanos>900600</nanos>
+  <sequence>2493</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1077</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:37.766532Z</date>
+  <millis>1706941177766</millis>
+  <nanos>532000</nanos>
+  <sequence>2692</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:37.782946600Z</date>
+  <millis>1706941177782</millis>
+  <nanos>946600</nanos>
+  <sequence>2693</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:37.783952400Z</date>
+  <millis>1706941177783</millis>
+  <nanos>952400</nanos>
+  <sequence>2694</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:54.233724200Z</date>
+  <millis>1706941194233</millis>
+  <nanos>724200</nanos>
+  <sequence>2695</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1131</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:54.235730300Z</date>
+  <millis>1706941194235</millis>
+  <nanos>730300</nanos>
+  <sequence>2696</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1131</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:19:54.236721800Z</date>
+  <millis>1706941194236</millis>
+  <nanos>721800</nanos>
+  <sequence>2697</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1131</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:46.075617100Z</date>
+  <millis>1706941366075</millis>
+  <nanos>617100</nanos>
+  <sequence>3523</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:46.077614700Z</date>
+  <millis>1706941366077</millis>
+  <nanos>614700</nanos>
+  <sequence>3524</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:46.078668900Z</date>
+  <millis>1706941366078</millis>
+  <nanos>668900</nanos>
+  <sequence>3525</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:53.280433200Z</date>
+  <millis>1706941373280</millis>
+  <nanos>433200</nanos>
+  <sequence>3526</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1155</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Amazon_Data file_SearchItem_002/Amazon_Excel_Searchitem_Test Data_002&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:53.294472300Z</date>
+  <millis>1706941373294</millis>
+  <nanos>472300</nanos>
+  <sequence>3527</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1155</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-02-03T06:22:53.295550900Z</date>
+  <millis>1706941373295</millis>
+  <nanos>550900</nanos>
+  <sequence>3528</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1155</thread>
+  <message>Reading excel file with source file &amp;apos;D:\Test Data_Amazon_002.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>

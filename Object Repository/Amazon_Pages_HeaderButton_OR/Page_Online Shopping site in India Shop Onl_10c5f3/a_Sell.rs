@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Sell</name>
    <tag></tag>
-   <elementGuidId>391923e7-93ab-4903-a113-f323a487fbcf</elementGuidId>
+   <elementGuidId>2ef31ec9-e608-4961-a90e-0c06e44ac144</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-xshop']/a[3]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='nav-xshop']/a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>81f27ac0-8b2f-45ea-b50a-fd7dba2484d5</webElementGuid>
+      <webElementGuid>6ad7e06d-0ce1-4a18-bd71-a228f3e9b0d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/b/32702023031?node=32702023031&amp;ld=AZINSOANavDesktop_T3&amp;ref_=nav_cs_sell_T3</value>
-      <webElementGuid>8b6229dd-2504-4511-8910-e97d7ea45a01</webElementGuid>
+      <webElementGuid>d4a8503d-c1cc-4a24-9d5b-992252a85673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-a  </value>
-      <webElementGuid>5c9df8b4-8d24-4407-ace7-fb5275bd7e5f</webElementGuid>
+      <webElementGuid>52d3f627-17ca-4a12-8b3d-cd308aa1f126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>6b2b6eea-1be7-4fd6-8965-97debf28e3e6</webElementGuid>
+      <webElementGuid>ed3b6828-3683-4260-a56a-93737347bab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>data-csa-c-type</name>
       <type>Main</type>
       <value>link</value>
-      <webElementGuid>984b041f-202c-4948-8aad-b5937c2004ca</webElementGuid>
+      <webElementGuid>b96030d5-f6ec-4be7-93c8-8946be44e0ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
-      <value>nav_cs_1</value>
-      <webElementGuid>61b1aeab-4848-490d-b3a1-d842df46312d</webElementGuid>
+      <value>nav_cs_2</value>
+      <webElementGuid>b0edd7bf-adb8-40c8-bcae-ef130f8772bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>data-csa-c-content-id</name>
       <type>Main</type>
       <value>nav_cs_sell_T3</value>
-      <webElementGuid>9d0b9cf1-0b3f-4bb4-b442-d88807d3d7a5</webElementGuid>
+      <webElementGuid>8ced57d4-e9ae-4415-b103-ece1dfac4f26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>ml51hb-vuolkj-5vv636-begx2b</value>
-      <webElementGuid>93df7a5f-6639-45cc-b003-836d1938c127</webElementGuid>
+      <value>gij1nl-183ott-w7wmll-ym6s60</value>
+      <webElementGuid>7e210b95-2064-49a6-a77f-595cf12cfc49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sell</value>
-      <webElementGuid>346208e7-65a4-4d14-96ae-a343b484348a</webElementGuid>
+      <webElementGuid>8d40fe1f-c71a-4cf6-85e1-0fdd43bb8aec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;]</value>
-      <webElementGuid>864b7671-2866-4814-af1e-14b126e5bded</webElementGuid>
+      <webElementGuid>fadaec5d-59b1-4321-b23f-c835f414b8fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-xshop']/a[2]</value>
-      <webElementGuid>2bd6bfe7-14b5-4279-837f-1db66fcaa7d6</webElementGuid>
+      <value>//div[@id='nav-xshop']/a[3]</value>
+      <webElementGuid>46c6b8db-020b-454e-94d6-87cd133373e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sell')]</value>
-      <webElementGuid>ab675fde-3cd3-4a3b-8ca5-34bd634ad7b2</webElementGuid>
+      <webElementGuid>6afc2366-4240-430e-9d05-a2cd44b0feba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,15 +118,15 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/b/32702023031?node=32702023031&amp;ld=AZINSOANavDesktop_T3&amp;ref_=nav_cs_sell_T3')]</value>
-      <webElementGuid>1751ffa9-ce38-42d4-9743-4d72346c0723</webElementGuid>
+      <webElementGuid>87eccb13-ae50-4641-9f2d-b553d19d13e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div[2]/div/div/a[2]</value>
-      <webElementGuid>9d143025-6a16-4c0c-82c2-bef0b01effb0</webElementGuid>
+      <value>//div[5]/div[2]/div/div/a[3]</value>
+      <webElementGuid>015e95fd-23a5-4cb2-9160-71aa64e46a95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/b/32702023031?node=32702023031&amp;ld=AZINSOANavDesktop_T3&amp;ref_=nav_cs_sell_T3' and (text() = 'Sell' or . = 'Sell')]</value>
-      <webElementGuid>0ee3d5a9-9ec7-4e90-a583-77bdd2594c80</webElementGuid>
+      <webElementGuid>4e0537cb-cd08-4b63-b2d8-22ce2c06d932</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

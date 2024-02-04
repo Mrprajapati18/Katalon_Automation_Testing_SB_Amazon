@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Best Sellers</name>
    <tag></tag>
-   <elementGuidId>2db3a7e2-c63f-4434-bc7e-be0f5d3ce82b</elementGuidId>
+   <elementGuidId>811f7712-104c-4e86-939d-8d3b053b79ef</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-xshop']/a[4]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='nav-xshop']/a[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>57a53d18-74d3-4df1-8a4a-58665afc217b</webElementGuid>
+      <webElementGuid>ecc0d2c7-4661-4bec-b1fa-97785c58e65b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/gp/bestsellers/?ref_=nav_cs_bestsellers</value>
-      <webElementGuid>7693b099-2749-4007-91f6-fd26ed7dc14d</webElementGuid>
+      <webElementGuid>ba776eb6-c371-4ff8-a1fb-58e8e3a42599</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-a  </value>
-      <webElementGuid>e44870fc-eb77-4567-80de-484b2012dd6f</webElementGuid>
+      <webElementGuid>ea5bc530-419f-4779-b7f9-3dfe7d19adc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>21e1fcf1-884d-41e5-b629-30414af58b03</webElementGuid>
+      <webElementGuid>93efdeec-238b-415d-8dfe-7589cc7cb85f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>data-csa-c-type</name>
       <type>Main</type>
       <value>link</value>
-      <webElementGuid>8fd7afbb-aae6-4aef-ba9f-f0ff610f1ab7</webElementGuid>
+      <webElementGuid>9ba82d70-3c83-4a8d-8dbf-b67738bc8a8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
-      <value>nav_cs_2</value>
-      <webElementGuid>649beb91-95ba-474e-9084-511ec0522720</webElementGuid>
+      <value>nav_cs_3</value>
+      <webElementGuid>e1081064-da3b-4c6f-9052-420881306841</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>data-csa-c-content-id</name>
       <type>Main</type>
       <value>nav_cs_bestsellers</value>
-      <webElementGuid>23680e8b-a2b7-4afe-b90e-7f7bfbbe4bdd</webElementGuid>
+      <webElementGuid>d0315313-c748-4dd2-8ed7-39168345db85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>bdvx1a-j6u8qs-he6hcq-3q0efm</value>
-      <webElementGuid>83178a1b-b721-48b2-b359-ea431cb29dc8</webElementGuid>
+      <value>7nlav3-b4yqte-5068g5-f3fifs</value>
+      <webElementGuid>331f8977-3a4d-4292-a214-9db8931d41d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Best Sellers</value>
-      <webElementGuid>7222e929-3219-4d39-b0cd-2f4ed6ea0c85</webElementGuid>
+      <webElementGuid>f0658bda-fd3a-4f55-aeb8-513cb827e32a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,15 +94,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;]</value>
-      <webElementGuid>20def724-296d-4caa-aacb-3cc90980432f</webElementGuid>
+      <webElementGuid>d7f36f90-175a-4e48-8337-eb2e6f4158a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-xshop']/a[3]</value>
-      <webElementGuid>ff66531b-9918-4996-ac5e-6760da23cf8f</webElementGuid>
+      <value>//div[@id='nav-xshop']/a[4]</value>
+      <webElementGuid>340ef1f7-2ff4-495e-b1c2-2bab043a55b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Best Sellers')]</value>
-      <webElementGuid>65ca47cb-9158-4458-afbd-b6cd6beec786</webElementGuid>
+      <webElementGuid>c379f994-3859-4015-b7ae-44b6b96ea91e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,15 +118,15 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers')]</value>
-      <webElementGuid>a152e414-9b9e-4158-96d9-4bb352a98cbf</webElementGuid>
+      <webElementGuid>58663ab4-b3fe-4271-9f5b-1605156e451f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a[3]</value>
-      <webElementGuid>4a7d3493-9894-43d0-adca-c61b5be8fc3d</webElementGuid>
+      <value>//div[2]/div/a[4]</value>
+      <webElementGuid>e837adff-30a9-4756-8ba0-3a9c473c69d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/gp/bestsellers/?ref_=nav_cs_bestsellers' and (text() = 'Best Sellers' or . = 'Best Sellers')]</value>
-      <webElementGuid>605dcaad-e0ce-4377-8abc-f774b6946550</webElementGuid>
+      <webElementGuid>ac090e1b-e3d3-4585-9d87-4e01f3f342b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
