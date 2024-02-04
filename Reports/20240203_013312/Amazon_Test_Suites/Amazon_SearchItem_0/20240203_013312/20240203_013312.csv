@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_SearchItem_0,Chrome 121.0.0.0,,,03-02-2024 01:33:17,03-02-2024 01:34:42,1m - 25.371s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/search item,Chrome 121.0.0.0,,,03-02-2024 01:33:17,03-02-2024 01:33:18,0.129s,PASSED
+return null,Chrome 121.0.0.0,,,03-02-2024 01:33:17,03-02-2024 01:33:18,0.003s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003,Chrome 121.0.0.0,,smoke,03-02-2024 01:33:18,03-02-2024 01:34:42,1m - 24.948s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 01:33:18,03-02-2024 01:33:20,1.963s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,03-02-2024 01:33:20,03-02-2024 01:33:22,2.679s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,03-02-2024 01:33:22,03-02-2024 01:33:23,0.160s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,03-02-2024 01:33:23,03-02-2024 01:33:43,20.236s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers""))",Chrome 121.0.0.0,,,03-02-2024 01:33:43,03-02-2024 01:33:50,7.124s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles""))",Chrome 121.0.0.0,,,03-02-2024 01:33:50,03-02-2024 01:34:01,10.710s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics""))",Chrome 121.0.0.0,,,03-02-2024 01:34:01,03-02-2024 01:34:26,25.480s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service""))",Chrome 121.0.0.0,,,03-02-2024 01:34:26,03-02-2024 01:34:34,7.559s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases""))",Chrome 121.0.0.0,,,03-02-2024 01:34:34,03-02-2024 01:34:37,2.967s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime""))",Chrome 121.0.0.0,,,03-02-2024 01:34:37,03-02-2024 01:34:40,2.965s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas""))",Chrome 121.0.0.0,,,03-02-2024 01:34:40,03-02-2024 01:34:42,2.403s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 01:34:42,03-02-2024 01:34:42,0.519s,PASSED

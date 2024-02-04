@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_HeaderButton_TS_Collection_003" time="375.745" tests="4" failures="0" errors="0">
+   <testsuite name="Amazon_Basic_TS_HeaderButton_003" tests="2" failures="0" errors="0" time="280.295" skipped="0" timestamp="02-02-2024T21:47:42" hostname="Lenovo - Durgesh" id="Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_HeaderButton_003">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240202_214732\\Amazon_Test_Suites\\Amazon_Basic_TS_HeaderButton_003\\20240202_214733"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240202_214732\\Amazon_Test_Suites\\Amazon_Basic_TS_HeaderButton_003\\20240202_214733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - Durgesh"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.195"/>
+         <property name="sessionId" value="d9057ac3a5781f42b1f679126eda7905"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003" time="244.189" classname="Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:47:43 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003: Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003
+
+02-02-2024T21:47:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T21:47:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T21:47:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T21:47:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T21:47:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:47:49 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:47:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T21:47:49 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T21:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+02-02-2024T21:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+02-02-2024T21:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers' is clicked on
+
+02-02-2024T21:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers' is clicked on
+
+02-02-2024T21:50:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles' is clicked on
+
+02-02-2024T21:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles' is clicked on
+
+02-02-2024T21:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+02-02-2024T21:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+02-02-2024T21:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service' is clicked on
+
+02-02-2024T21:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service' is clicked on
+
+02-02-2024T21:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+02-02-2024T21:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+02-02-2024T21:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime' is clicked on
+
+02-02-2024T21:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime' is clicked on
+
+02-02-2024T21:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas' is clicked on
+
+02-02-2024T21:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas' is clicked on
+
+02-02-2024T21:51:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T21:51:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004" time="35.817" classname="Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:51:47 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004: Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004
+
+02-02-2024T21:51:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T21:51:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-02-2024T21:51:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T21:51:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T21:51:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:51:50 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+02-02-2024T21:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+02-02-2024T21:51:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil' is clicked on
+
+02-02-2024T21:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil' is clicked on
+
+02-02-2024T21:52:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia' is clicked on
+
+02-02-2024T21:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia' is clicked on
+
+02-02-2024T21:52:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan' is clicked on
+
+02-02-2024T21:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan' is clicked on
+
+02-02-2024T21:52:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T21:52:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T21:47:42 - [TEST_SUITE][PASSED] - Amazon_Basic_TS_HeaderButton_003: Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Amazon_Basic_TS_FooterLinks_004" tests="2" failures="0" errors="0" time="84.112" skipped="0" timestamp="02-02-2024T21:52:28" hostname="Lenovo - Durgesh" id="Test Suites/Amazon_Test_Suites/Amazon_Basic_TS_FooterLinks_004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240202_214732\\Amazon_Test_Suites\\Amazon_Basic_TS_FooterLinks_004\\20240202_214735"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_Testing_SB_Amazon\\Reports\\20240202_214732\\Amazon_Test_Suites\\Amazon_Basic_TS_FooterLinks_004\\20240202_214735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - Durgesh"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Firefox 122.0"/>
+         <property name="hostAddress" value="192.168.43.195"/>
+         <property name="sessionId" value="f4594cf5-5fed-47ca-9916-41abd757bf2b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003" time="52.533" classname="Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:52:29 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003: Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003
+
+02-02-2024T21:52:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T21:52:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+02-02-2024T21:52:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T21:52:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T21:52:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:52:36 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:52:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-02-2024T21:52:36 - [MESSAGE][PASSED] - Current window maximized
+
+02-02-2024T21:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+02-02-2024T21:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell' is clicked on
+
+02-02-2024T21:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers' is clicked on
+
+02-02-2024T21:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers' is clicked on
+
+02-02-2024T21:52:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles' is clicked on
+
+02-02-2024T21:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles' is clicked on
+
+02-02-2024T21:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+02-02-2024T21:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics' is clicked on
+
+02-02-2024T21:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service' is clicked on
+
+02-02-2024T21:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service' is clicked on
+
+02-02-2024T21:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+02-02-2024T21:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases' is clicked on
+
+02-02-2024T21:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime' is clicked on
+
+02-02-2024T21:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime' is clicked on
+
+02-02-2024T21:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas")): Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas' is clicked on
+
+02-02-2024T21:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas' is clicked on
+
+02-02-2024T21:53:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T21:53:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004" time="31.305" classname="Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004" status="PASSED">
+         <system-out><![CDATA[02-02-2024T21:53:21 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004: Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004
+
+02-02-2024T21:53:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-02-2024T21:53:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+02-02-2024T21:53:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-02-2024T21:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-02-2024T21:53:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.in/"): Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:53:28 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.in/' successfully
+
+02-02-2024T21:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+02-02-2024T21:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Australia' is clicked on
+
+02-02-2024T21:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil' is clicked on
+
+02-02-2024T21:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.au Shop online for Electron_18857a/a_Brazil' is clicked on
+
+02-02-2024T21:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia' is clicked on
+
+02-02-2024T21:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Amazon.com.br  Tudo pra voc, de A a Z/a_ndia' is clicked on
+
+02-02-2024T21:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan")): Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan' is clicked on
+
+02-02-2024T21:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_FooterLinks_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Japan' is clicked on
+
+02-02-2024T21:53:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-02-2024T21:53:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T21:52:28 - [TEST_SUITE][PASSED] - Amazon_Basic_TS_FooterLinks_004: Test Cases/Amazon_Test Case/Amazon_TC_FooterLinks_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

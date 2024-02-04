@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Basic_TS_SearchItem_002,Chrome 121.0.0.0,,,03-02-2024 10:59:14,03-02-2024 11:00:41,1m - 27.626s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_SearchItem_002,Chrome 121.0.0.0,,,03-02-2024 10:59:14,03-02-2024 10:59:52,37.746s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 10:59:14,03-02-2024 10:59:16,2.034s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,03-02-2024 10:59:16,03-02-2024 10:59:18,2.059s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561""), ""search-alias=stripbooks"", true)",Chrome 121.0.0.0,,,03-02-2024 10:59:18,03-02-2024 10:59:21,2.143s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""Da vinci code"")",Chrome 121.0.0.0,,,03-02-2024 10:59:21,03-02-2024 10:59:22,1.268s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,03-02-2024 10:59:22,03-02-2024 10:59:25,2.994s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  Da vinci code/select_All Categories        Alexa Skills  _a62561""), ""search-alias=apparel"", true)",Chrome 121.0.0.0,,,03-02-2024 10:59:25,03-02-2024 10:59:28,2.956s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  Da vinci code/input_field-keywords""), ""T shirt for men"")",Chrome 121.0.0.0,,,03-02-2024 10:59:28,03-02-2024 10:59:29,0.837s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  Da vinci code/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,03-02-2024 10:59:29,03-02-2024 10:59:36,7.759s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  T shirt for men/select_All Categories        Alexa Skills  _a62561""), ""search-alias=electronics"", true)",Chrome 121.0.0.0,,,03-02-2024 10:59:36,03-02-2024 10:59:40,3.196s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  T shirt for men/input_field-keywords""), ""laptop"")",Chrome 121.0.0.0,,,03-02-2024 10:59:40,03-02-2024 10:59:41,1.036s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  T shirt for men/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,03-02-2024 10:59:41,03-02-2024 10:59:44,3.845s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  laptop/select_All Categories        Alexa Skills  _a62561""), ""search-alias=furniture"", true)",Chrome 121.0.0.0,,,03-02-2024 10:59:44,03-02-2024 10:59:46,1.949s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  laptop/input_field-keywords""), ""chair"")",Chrome 121.0.0.0,,,03-02-2024 10:59:46,03-02-2024 10:59:47,1.123s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Searchitem_OR/Page_Amazon.in  laptop/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,03-02-2024 10:59:47,03-02-2024 10:59:52,4.132s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 10:59:52,03-02-2024 10:59:52,0.213s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test Case/Amazon_TC_HeaderButton_003,Chrome 121.0.0.0,,smoke,03-02-2024 10:59:52,03-02-2024 11:00:41,49.615s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,03-02-2024 10:59:52,03-02-2024 10:59:53,0.780s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,03-02-2024 10:59:53,03-02-2024 10:59:55,2.557s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,03-02-2024 10:59:55,03-02-2024 10:59:55,0.148s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Online Shopping site in India Shop Onl_10c5f3/a_Sell""))",Chrome 121.0.0.0,,,03-02-2024 10:59:55,03-02-2024 11:00:00,4.629s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in CrossShop1/a_Best Sellers""))",Chrome 121.0.0.0,,,03-02-2024 11:00:00,03-02-2024 11:00:02,2.314s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Bestsellers The most popular_e30680/a_Mobiles""))",Chrome 121.0.0.0,,,03-02-2024 11:00:02,03-02-2024 11:00:06,3.931s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in - Deals/a_Electronics""))",Chrome 121.0.0.0,,,03-02-2024 11:00:06,03-02-2024 11:00:28,21.272s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Electronics Store Buy Electronics prod_1485cf/a_Customer Service""))",Chrome 121.0.0.0,,,03-02-2024 11:00:28,03-02-2024 11:00:33,5.342s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Help - Amazon Customer Service/a_New Releases""))",Chrome 121.0.0.0,,,03-02-2024 11:00:33,03-02-2024 11:00:36,3.219s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Amazon.in Hot New Releases The bestsel_0a911b/span_Prime""))",Chrome 121.0.0.0,,,03-02-2024 11:00:36,03-02-2024 11:00:39,2.703s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_HeaderButton_OR/Page_Gifts for Everyone  Amazon.in Gift Finder/a_Gift Ideas""))",Chrome 121.0.0.0,,,03-02-2024 11:00:39,03-02-2024 11:00:41,2.148s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,03-02-2024 11:00:41,03-02-2024 11:00:41,0.479s,PASSED

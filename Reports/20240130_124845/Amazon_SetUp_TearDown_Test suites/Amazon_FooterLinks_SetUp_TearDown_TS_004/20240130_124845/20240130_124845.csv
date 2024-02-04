@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Amazon_FooterLinks_SetUp_TearDown_TS_004,,,,30-01-2024 12:48:51,30-01-2024 12:48:51,0.593s,PASSED
-,,,,,,,
-Test Cases/Amazon_SetUp_Teardown/Test_004,,,,30-01-2024 12:48:51,30-01-2024 12:48:51,0.110s,PASSED
-"println(""
- I am inside Test_004"")",,,,30-01-2024 12:48:51,30-01-2024 12:48:51,0.003s,PASSED
