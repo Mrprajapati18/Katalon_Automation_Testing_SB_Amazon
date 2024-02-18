@@ -85,7 +85,7 @@ Java, HTML, MYSQL, CSS...
 ### Script Testing
 ### Data Driven Testing
 
-## 🔗Testing Framework
+## 🔗Testing Tools and Framework
  ### Katalon Studio
   
 
