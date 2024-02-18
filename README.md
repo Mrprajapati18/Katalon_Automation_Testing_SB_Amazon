@@ -92,7 +92,13 @@ Java, HTML, MYSQL, CSS...
 
 ## 🔗Testing Tools and Framework
  ### Katalon Studio
-  
+
+  ## Deployment
+
+## Git hub to Jenkins Integration
+
+![Screenshot 2024-01-30 170630](https://github.com/Mrprajapati18/Katalon_Automation_Testing_SB_Amazon/assets/143236347/0aa9d1da-3455-4e9d-858a-307509aedf57)
+
 
 ## Documentation
 
@@ -109,11 +115,7 @@ Java, HTML, MYSQL, CSS...
 [Literature_Review_Amazon.docx](https://github.com/Mrprajapati18/Katalon_Automation_Testing_SB_Amazon/files/14322108/Literature_Review_Amazon.docx)
 
 
-## Deployment
 
-## Git hub to Jenkins Integration
-
-![Screenshot 2024-01-30 170630](https://github.com/Mrprajapati18/Katalon_Automation_Testing_SB_Amazon/assets/143236347/0aa9d1da-3455-4e9d-858a-307509aedf57)
 
 ## Linkedin
 https://www.linkedin.com/in/durgeshprajapati/
